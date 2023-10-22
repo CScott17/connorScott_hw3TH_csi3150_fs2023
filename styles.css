@@ -1,0 +1,242 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+
+
+h1 {
+    color: yellow;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.pg1 {
+    background: url("images/page1.jpg") no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg2 {
+    background: url("images/page2.jpg") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10%;
+}
+
+
+
+.h1-color {
+    color: yellow;
+    font-size: 50px;
+    width: 60%;
+    padding-left: 5%;
+}
+
+
+
+.p2-paragraph {
+    flex-direction: column;
+    line-height: 2;
+    padding-right: 10%;
+}
+
+.p4-paragraph {
+    flex-direction: column;
+    line-height: 2;
+    padding-right: 5%;
+}
+
+.button {
+    background-color: yellow;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+
+p {
+    text-align: left;
+    color: white;
+}
+
+
+
+.pg3 {
+    background: url("images/page3.jpg") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pg3 a {
+    text-align: center;
+    margin: 20px 50px;
+    display: block;
+    padding: 15px 20px;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+.card-image {
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+    background-image: url('images/card1.jpg');
+}
+
+.card-2 {
+    background-image: url('images/card2.jpg');
+}
+
+.card-3 {
+    background-image: url('images/card3.jpg');
+}
+
+.pg4 {
+    background: url("images/page4.jpg") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10%;
+}
+
+.pg5 {
+    background: url("images/page5.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: yellow;
+    text-align: center;
+    background: #000;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.pg6 {
+    background: url("images/page6.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.personal-photo {
+    width: 50%;
+    margin-left: 125%;
+    margin-top: 5%;
+    clip-path: circle();
+}
+
+.review {
+    text-align: left;
+    word-break: break-all;
+    font-size: larger;
+    margin-top: 15%;
+    margin-right: 20%;
+}
+
+.pg7 {
+    background: url("images/page7.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.photos {
+    max-height: 100%;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+.photos .item {
+    min-width: 600px;
+    height: 100%;
+    line-height: 300px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.pg8 {
+    background: url("images/page8.jpg") no-repeat;
+}
+
+.h1-pg8 {
+    color: yellow;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.contact-info {
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: x-large;
+}
+
+.contact-info a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid yellow;
+}
+
+.submit-button {
+    background-color: yellow;
+    width: 25%;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
